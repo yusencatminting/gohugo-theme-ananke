@@ -1,20 +1,82 @@
-/* Put your custom styles here and run `npm start` from the "src" directory on */
-
-#TableOfContents ul li {
-  margin-bottom: 1em;
+/* Base styles for dark palette */
+body {
+  background-color: #121212 !important;
+  color: #e0e0e0;           /* Light grey text for body */
+  font-family: 'Voltaire', sans-serif; /* Use Google Font Voltaire */
 }
 
-.lh-copy blockquote {
-  display: block;
-  font-size: .875em;
-  margin-left: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border-left: 4px solid #ccc;
+/* Links and highlights */
+a, a:visited {
+  color: #FFAC00; /* Bright yellow for links */
+  text-decoration: none;
+  font-family: 'Voltaire', sans-serif; /* Apply to links */
+}
+
+a:hover, a:focus {
+  color: #FFD700; /* Slightly brighter on hover */
+  text-decoration: underline;
+}
+
+/* Titles and headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #FFAC00; /* Bright yellow for titles */
+  font-family: 'Voltaire', sans-serif; /* Apply to all headings */
+}
+
+h2, h3 {
+  color: #f5f5f5; /* Slightly closer to white for subtitles */
+}
+
+h4, h5, h6 {
+  color: #ffffff; /* Pure white for smaller headings */
+}
+
+/* Body text for readability */
+p {
+  color: #f5f5f5; /* Light grey for body text */
+  line-height: 1.6;
+  font-family: 'Voltaire', sans-serif;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #FFAC00; /* Highlight for quotes */
+  color: #e0e0e0; /* Quote text */
   padding-left: 1rem;
-
+  font-family: 'Voltaire', sans-serif;
 }
 
-.nested-links a{
+/* Table of Contents */
+#TableOfContents ul li {
+  color: #f5f5f5; /* Light grey for TOC items */
+  margin-bottom: 1em;
+  font-family: 'Voltaire', sans-serif;
+}
+
+/* Nested links */
+.nested-links a {
+  color: #FFAC00;
   overflow-wrap: break-word;
+  font-family: 'Voltaire', sans-serif;
+}
+
+/* Wrappers and site-wide background */
+.content {
+  background-color: #121212 !important;
+}
+
+.wrapper {
+  background-color: #121212 !important;
+}
+
+.site {
+  background-color: #121212 !important;
+}
+
+.bg-white {
+  background-color: #020202 !important;
+}
+
+.bg-light-gray {
+  background-color: #121212 !important;
 }
