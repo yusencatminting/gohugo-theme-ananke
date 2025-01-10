@@ -80,3 +80,59 @@ blockquote {
 .bg-light-gray {
   background-color: #121212 !important;
 }
+
+
+/* Styles for the embed section */
+#mc_embed_shell {
+  background-color: #000000; /* Pure black background */
+  color: #FFFFFF;            /* White text */
+  border-color: #000000;
+  font-family: 'Voltaire', sans-serif; /* Voltaire font for consistency */
+}
+
+#mc_embed_signup {
+  color: #FFFFFF; /* White text for required indicator */
+  background-color: #000000;
+}
+
+/* Form field styles */
+#mc_embed_signup input[type="email"] {
+  background-color: #121212; /* Slightly lighter black */
+  color: #FFFFFF;            /* White text for the input */
+  border: 1px solid #FFFFFF; /* White border */
+  font-family: 'Voltaire', sans-serif;
+}
+
+/* Submit button */
+#mc_embed_signup input[type="submit"] {
+  background-color: #121212 !important; /* Bright yellow button */
+  color: #FFAC00;            /* Black text */
+  font-family: 'Voltaire', sans-serif;
+}
+
+#mc_embed_signup input[type="submit"]:hover {
+  background-color: #FFC300; /* Slightly brighter yellow on hover */
+}
+
+/* Adjust labels and text */
+#mc_embed_signup label {
+  color: #FFFFFF; /* White text for labels */
+  font-family: 'Voltaire', sans-serif;
+  background-color: #000000;
+}
+
+#mc_embed_signup h2 {
+  color: #FFAC00; /* Bright yellow for the title */
+  font-family: 'Voltaire', sans-serif;
+  background-color: #000000;
+}
+
+#mc_embed_signup form {
+  color: #000000; /* Bright yellow for the title */
+  background-color: #000000;
+  font-family: 'Voltaire', sans-serif;
+}
+
+#mc_embed_signup .indicates-required {
+  color: #FFFFFF; /* White text for required indicator */
+}
